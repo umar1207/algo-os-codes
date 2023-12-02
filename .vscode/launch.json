@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/umarkhan/Docs/Study_material/Semester5/algorithmsLab/pageReplacement",
+      "program": "/Users/umarkhan/Docs/Study_material/Semester5/algorithmsLab/pageReplacement/build/Debug/outDebug"
+    }
+  ]
+}
