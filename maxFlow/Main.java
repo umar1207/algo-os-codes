@@ -83,12 +83,12 @@ public class Main{
                 // residGraph[v][u] += flow; // back edge
             }
             
-            // System.out.print("Augmenting path : ");
-            // for(int v = sink; v != source; v = parent[v]){
-            //     int u = parent[v];
-            //     System.out.print(v + " <-(" + (graph[u][v]-residGraph[u][v]) + "/" + graph[u][v] + ")- ");
-            // }
-            // System.out.println(source);
+            System.out.print("Augmenting path : ");
+            for(int v = sink; v != source; v = parent[v]){
+                int u = parent[v];
+                System.out.print(v + " <-(" + (graph[u][v]-residGraph[u][v]) + "/" + graph[u][v] + ")- ");
+            }
+            System.out.println(source);
             
             max_flow += flow;
             BFS(residGraph, source, sink);
